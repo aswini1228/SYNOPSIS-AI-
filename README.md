@@ -3,6 +3,8 @@
 
 ### AI-Powered Scam Message Detection System
 
+## Application link: https://scamradar.streamlit.app/
+
 ## Project Overview
 ScamRadar AI is an AI-powered application that analyzes suspicious SMS messages, emails, job offers, and online messages to identify possible scam indicators.
 
