@@ -1,56 +1,131 @@
+SYNOPSIS AI
 
-# ScamRadar AI
+AI-Powered Intelligent Text Summarization Assistant
 
-### AI-Powered Scam Message Detection System
+Read Less. Understand More.
 
-## Application link: https://scamradar.streamlit.app/
+Transform lengthy content into clear, concise, and meaningful summaries using the power of Artificial Intelligence.
 
-## Project Overview
-ScamRadar AI is an AI-powered application that analyzes suspicious SMS messages, emails, job offers, and online messages to identify possible scam indicators.
+---
 
-## Features
-- Analyze suspicious messages.
-- Detect possible scam indicators.
-- Classify concern levels.
-- Display warning signs.
-- Provide safety recommendations.
-- Generate structured investigation reports.
+About the Project
 
-## Technology Stack
-- Python
-- Streamlit
-- Requests
-- Ollama
-- Gemma 3 1B
+SYNOPSIS AI is an intelligent text summarization application designed to simplify reading, understanding, and organizing lengthy information.
 
-## Project Structure
+Powered by Google Gemini AI and developed using Python and Streamlit, this application converts lengthy text and documents into structured summaries based on the user's preferred length and format.
 
-ScamRadar-AI/
+Whether you are a student, researcher, or professional, SYNOPSIS AI helps save time and focus on essential information.
+
+Key Features
+
+- AI-Powered Summarization: Generate meaningful summaries from lengthy content.
+- Multiple Summary Lengths: Choose Short, Medium, or Detailed summaries.
+- Flexible Output Formats: Generate Paragraphs, Bullet Points, and Study Notes.
+- Text Input: Paste lengthy content directly into the application.
+- Document Upload: Upload supported documents for summarization.
+- Word Counter: Track input and output word counts.
+- Character Counter: Calculate the number of characters in your content.
+- Instant Results: Generate summaries using Google Gemini AI.
+- Download Summary: Save generated summaries for future reference.
+- User-Friendly Interface: Simple and interactive application design.
+
+Technology Stack
+
+Technology| Purpose
+Python| Application development
+Streamlit| Interactive web interface
+Google Gemini API| AI-powered summarization
+GitHub| Source code management
+Streamlit Cloud| Application deployment
+
+How It Works
+
+1. Open the SYNOPSIS AI application.
+2. Enter text or upload a supported document.
+3. Select the preferred summary length.
+4. Choose the output format.
+5. Click the Generate Summary button.
+6. Gemini AI processes the content.
+7. View and download the generated summary.
+
+Application Modules
+
+- Text Input Module
+- Document Processing Module
+- AI Summarization Engine
+- Summary Formatting Module
+- Word and Character Analysis
+- Summary Download Module
+
+Project Structure
+
+SYNOPSIS-AI/
 │
 ├── app.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 
-## Installation
+Installation and Setup
 
-1. Install Python 3.10 or newer.
-2. Install Ollama.
-3. Download the Gemma model:
+1. Clone the Repository
 
-   ollama pull gemma3:1b
+git clone https://github.com/YOUR-USERNAME/SYNOPSIS-AI.git
 
-4. Install dependencies:
+2. Navigate to the Project Folder
 
-   pip install -r requirements.txt
+cd SYNOPSIS-AI
 
-5. Run the application:
+3. Install Dependencies
 
-   streamlit run app.py
+pip install -r requirements.txt
 
-## Safety Notice
-This application provides AI-generated assessments.
-It does not guarantee that a message is safe or fraudulent.
-Always verify suspicious messages through official channels.
+4. Configure Gemini API
 
-## Developed By
-ScamRadar AI Project
+Get your API key from Google AI Studio and configure it securely using Streamlit Secrets.
+
+Never upload your API key or credentials to GitHub.
+
+5. Run the Application
+
+streamlit run app.py
+
+Live Application
+
+Application Name: SYNOPSIS AI
+
+Live Demo: "Launch SYNOPSIS AI" (YOUR-STREAMLIT-APP-LINK)
+
+Future Enhancements
+
+- PDF and DOCX document support
+- Multi-language summarization
+- Text-to-Speech functionality
+- AI-generated Questions and Answers
+- Chat with uploaded documents
+- PDF export functionality
+- Improved summary customization
+
+Project Objective
+
+The main objective of SYNOPSIS AI is to make information easier to understand by transforming lengthy content into concise, meaningful, and well-organized summaries using Artificial Intelligence.
+
+Developer Information
+
+Author: Aswini S
+
+Project Name: SYNOPSIS AI
+
+Domain: Artificial Intelligence
+
+Technologies: Python, Streamlit, Google Gemini AI
+
+Development Platform: GitHub
+
+---
+
+SYNOPSIS AI
+
+Read Less. Understand More.
+
+Making information simpler with Artificial Intelligence.
